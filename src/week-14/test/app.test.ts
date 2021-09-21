@@ -13,7 +13,7 @@ describe("Bank", () => {
     expect(consoleLog).toHaveBeenCalledWith("Date || Amount || Balance");
   });
 
-  it("should make initial desposit and print balance", () => {
+  it("should make initial deposit and print balance", () => {
     const app = new App();
     app.execute();
 
@@ -24,6 +24,6 @@ describe("Bank", () => {
     const app = new App();
     app.execute();
 
-    expect(consoleLog).toHaveBeenCalledWith("10/01/2021 || -500 || 500");
+    expect(consoleLog).toHaveBeenCalledWith("10/02/2021 || -500 || 500");
   });
 });

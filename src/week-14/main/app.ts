@@ -7,6 +7,8 @@ export class App {
   }
 
   execute() {
+    this.bank.deposit(1000);
+    this.bank.withdraw(500);
     this.bank.printHistory();
   }
 }
